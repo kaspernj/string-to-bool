@@ -1,6 +1,11 @@
 = string-to-bool
 
-Description goes here.
+This gem adds the "to_bool"-method for the String-class. It returns true or false based on various cases:
+
+"true", "t", "1", "y", "yes"
+
+"false", "f", "0", "n", "no", ""
+
 
 == Contributing to string-to-bool
  

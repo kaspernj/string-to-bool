@@ -1,7 +1,16 @@
 require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
 
 describe "StringToBool" do
-  it "fails" do
-    fail "hey buddy, you should probably rename this file and start specing for real"
+  it "should work" do
+    trues = ["true", "t", "1", "TruE", "y", "yes"]
+    falses = ["false", "f", "", "0", "no", "n"]
+    
+    trues.each do |true_str|
+      true_str.to_bool.should eql(true)
+    end
+    
+    falses.each do |false_str|
+      false_str.to_bool.should eql(false)
+    end
   end
 end

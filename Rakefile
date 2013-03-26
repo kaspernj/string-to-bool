@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "string-to-bool"
   gem.homepage = "http://github.com/kaspernj/string-to-bool"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{"to_bool" for the String-class in Ruby.}
+  gem.description = %Q{"to_bool" for the String-class in Ruby.}
   gem.email = "kj@gfish.com"
   gem.authors = ["Kasper Johansen"]
   # dependencies defined in Gemfile
